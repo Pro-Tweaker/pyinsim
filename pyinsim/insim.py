@@ -1261,7 +1261,7 @@ class IS_RIP(object):
     """Replay Information Packet
 
     """
-    pack_s = struct.Struct('8B2H63sx')
+    pack_s = struct.Struct('8B2L63sx')
     def __init__(self, ReqI=0, Error=0, MPR=0, Paused=0, Options=0, CTime=0, TTime=0, RName=b''):
         """Initialise a new IS_RIP packet.
 
@@ -1276,7 +1276,7 @@ class IS_RIP(object):
             RName   : zero or replay name: last byte must be zero
 
         """
-        self.Size = 76
+        self.Size = 80
         self.Type = ISP_RIP
         self.ReqI = ReqI
         self.Error = Error
