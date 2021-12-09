@@ -4,15 +4,18 @@ pyinsim is a InSim module for the Python programming language. It creates
 socket connection with LFS and provides many classes, functions and 
 enumerations for sending and receiving data between your program and the game.
 
-## REQUIREMENTS
+## Requirements
 
-The module requires Python 2.7 or better to run. Note: It does not currently 
-support Python 3.0. You can download Python from the following URL:
+The module requires Python 3.0 (2.7?) or better to run.
 
-http://www.python.org/download/
+## Installation
 
-## INSTALLATION
+### PIP
+```
+pip install --upgrade https://github.com/Pro-Tweaker/pyinsim/tarball/master
+```
 
+### Manual
 To install pyinsim on Windows, simply unzip the package and run the windows
 installer 'pyinsim-x.x.x.win32.exe'. 
 
@@ -26,7 +29,7 @@ Of course you always have the option of just copying the package folder into
 your program's source directory (this is also useful for when you redistribute
 your program.).
 
-## LICENSE
+## License
 
 pyinsim is free software: you can redistribute it and/or modify it under the 
 terms of the GNU Lesser General Public License as published by the Free 
@@ -41,14 +44,14 @@ details.
 You should have received a copy of the GNU Lesser General Public License along 
 with pyinsim. If not, see <http://www.gnu.org/licenses/>.
 
-## AUTHOR
+## Author
 
-Written by Alex McBride
-Copyright Alex McBride 2012-2019
+Written by Alex McBride  
+Copyright Alex McBride 2012-2019  
 Website: https://github.com/alexmcbride/pyinsim
 
-## THANKS
+## Thanks
 
-Thanks to Constantin Kopplinger (morpha) for his work on the strmanip module.
+Thanks to Constantin Kopplinger (morpha) for his work on the strmanip module.  
 Thanks to tmehlinger for his work on InSim Relay support.
 
